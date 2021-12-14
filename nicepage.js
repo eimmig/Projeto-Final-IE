@@ -57,7 +57,7 @@ function cria(){
 		var top = -contp*tfont;
 		var n = "c"+c+contp;
 		var divTag = document.createElement ("div"); 
-						if(contp==0){divTag.style.color="#FFF"}
+						if(contp==0){divTag.style.color="#FFF", zIndex="-1"}
 						divTag.style.fontSize = tfont+"px";
 						divTag.style.top=top+"px";
 						divTag.style.left=left+"px";
